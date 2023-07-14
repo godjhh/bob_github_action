@@ -3,7 +3,7 @@ name: Python
 on: workflow_dispatch
 
 jobs:
-  build-3.8:
+  build3_8:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -24,7 +24,7 @@ jobs:
           path: bob3_8.txt
 
 
-  build-3.9:
+  build3_9:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -44,7 +44,7 @@ jobs:
           name: python3.9
           path: bob3_9.txt
         
-  build-3.10:
+  build3_10:
     runs-on: ubuntu-latest
     strategy:
       matrix:
